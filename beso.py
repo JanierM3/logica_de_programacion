@@ -1,10 +1,10 @@
 """Desarrollar un algoritmo que permita dar un beso"""
 
-print("Dar tu primer beso. Para dar tu primer beso hay que hacerlo con la persona con la que te sientas comodo/a.")
+print("\nDar tu primer beso. Para dar tu primer beso hay que hacerlo con la persona con la que te sientas comodo/a.")
 
 def humedecer_labios():
 
-    print("¿Quieres humedecer tu labios? Es recomendable antes de dar un beso. (si/no)")
+    print("\n¿Quieres humedecer tu labios? Es recomendable antes de dar un beso. (si/no)")
     labios_humedos = input()
     if labios_humedos.lower() == "si":
         print("Buen comienzo, vas por buen camino.")
@@ -13,15 +13,15 @@ def humedecer_labios():
         duracion_beso()
     
     elif labios_humedos.lower() == "no":
-        print("Debes aplicarte balsamo labial o algo que humedezca los labios para evitar esto.")
+        print("\nDebes aplicarte balsamo labial o algo que humedezca los labios para evitar esto.")
         print("Los labios resecos son de tacto desagradable y pueden agrietarse al moverlos demasiado.")
         exit()
 
 def acercamiento_para_el_beso():
-    print("Te acercas lentamente para dar el beso...")
+    print("\nTe acercas lentamente para dar el beso...")
 
 def abrir_labio():
-    print("Abre los labios un poco al ponerte en contacto con los suyos. Puedes, simplemente, rozarlos")
+    print("\nAbre los labios un poco al ponerte en contacto con los suyos. Puedes, simplemente, rozarlos")
 
     preguntarle = input("¿Quieres un beso normal o un beso húmedo? (normal/humedo)")
 
