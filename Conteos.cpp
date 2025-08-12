@@ -12,7 +12,6 @@ int main() {
 
     cout << "Ingrese un número: ";
     cin >> n;
-
     // Bucle anidado
     for (i = 1; i <= n; i++) // Este bucle se repite de i = 1 hasta i = n en cada iteración.
     {
